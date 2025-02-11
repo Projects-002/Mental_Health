@@ -24,7 +24,9 @@ $client->setRedirectUri($_ENV['GOOGLE_REDIRECT_URI']);
 $client->addScope("email");
 $client->addScope("profile");
 
+
 $url = $client->createAuthUrl();
+
 // Google Auth End
 
 
@@ -37,7 +39,7 @@ if (isset($_POST['login-email'])) {
     $pass = $_POST['pass'];
 
     // Check if the user exists
-    $sql = "SELECT * FROM users WHERE email = ?AND User_Role = 'user'";
+    $sql = "SELECT * FROM users WHERE email = ? AND User_Role = 'user'";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $email);
     $stmt->execute();
@@ -123,7 +125,7 @@ if (isset($_POST['login-email'])) {
         <div class="card shadow-lg p-4" style="width: 100%; max-width: 400px;">
         
             <!-- Logo -->
-             <p class="text-center">PortfolioReady</p>
+             <p class="text-center">Inner Balance</p>
              <!-- <div class="logo  d-flex justify-content-center align-items-center container p-0" style="background-image:url('../assets/images/gree.png');"></div> -->
             <h2 class="text-center font-weight-bold mb-4">Sign In</h2>
             
