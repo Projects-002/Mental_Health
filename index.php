@@ -9,6 +9,10 @@
      <link rel="stylesheet" href="Assets/CSS/style.css">
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body class="bg-light" style="background: rgb(255,255,255);
 background: linear-gradient(73deg, rgba(255,255,255,1) 8%, rgba(29,159,180,0.25262605042016806) 87%);">
@@ -21,7 +25,7 @@ background: linear-gradient(73deg, rgba(255,255,255,1) 8%, rgba(29,159,180,0.252
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto ms-auto my-2 my-lg-0 gap-4 navbar-nav-scroll" >
+            <ul class="navbar-nav me-auto ms-auto my-2 my-lg-0 gap-4 navbar-nav-fixed" >
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -29,7 +33,7 @@ background: linear-gradient(73deg, rgba(255,255,255,1) 8%, rgba(29,159,180,0.252
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" datao-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu">
@@ -45,7 +49,7 @@ background: linear-gradient(73deg, rgba(255,255,255,1) 8%, rgba(29,159,180,0.252
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
-              </li>
+                  </li>
             </ul>
               <button onclick="window.location='auth/signin.php'" class="btn text-white" style="background-color: #1D9DB4;" >Get started</button>
           </div>
@@ -72,9 +76,152 @@ background: linear-gradient(73deg, rgba(255,255,255,1) 8%, rgba(29,159,180,0.252
     </div>
 
 
+<!-- About section -->
+<section class="about-section container">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="about-content">
+                        <h2 class="fw-semi-bold text-black">Who we are</h2>
+                        <h3 class="fw-bold text-black">About <span class="text-light">Us</span></h3>
+                        <p>
+                            At Inner Balance care, we are dedicated to helping individuals rediscover their inner strength and achieve mental harmony.
+                            Through compassionate care and personalized programs, we create a safe space where healing and growth flourish.
+                            Our goal is to empower every individual to embrace wellness and lead a balanced, fulfilling life.
+                        </p>
+                        <button class="btn btn-outline-light">Learn more</button>
+                    </div>
+                </div>
+                <div class="col-lg-7 ">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card p-4 text-center">
+                                <div class="card-icon"><i class="fas fa-people-carry"></i></div>
+                                <h5 class="mt-3">Compassion</h5>
+                                <p>We understand, respect, and continually promote sincere care for our clients and their families.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card p-4 text-center">
+                                <div class="card-icon"><i class="fas fa-handshake"></i></div>
+                                <h5 class="mt-3">Commitment</h5>
+                                <p>We have and maintain a relentless optimism to guide those we care for through their wellness journey.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card p-4 text-center">
+                                <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                                <h5 class="mt-3">Knowledge</h5>
+                                <p>We rely on hard-backed data in our care delivery and management. Our practice requires a combination of science and art.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card p-4 text-center">
+                                <div class="card-icon"><i class="fas fa-book-open"></i> </div>
+                                <h5 class="mt-3">Research</h5>
+                                <p>We pursue continuous improvement to care, professional development, and creating an impact.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- services section -->
+<section class="services_sec container">
+  <div class="container">
+    
+  <div class="head_sec">
+<h2 class="fw-semi-bold   d-flex justify-content-center align-items-center py-5" >What we  offer</h2>
+<h3 class="fw-bold text-#363636  d-flex justify-content-center align-items-center py-2">Our <span class="text-right">Services</span></h3>
+  <p class="d-flex justify-content-center align-itegigms-center py-2" style="font-size:24px;">Outpatient programs tailored to meet client health <br> needs and goals. Explore our programs</p>
+</div>
+
+<div class="cards_ main d-flex justify-content-center align-items-center g-4 me-auto ms-auto ">
+  <!-- <div class="col-lg-7"> -->
+  <div class="row align-items-center  g-4">
+            <div class="col-md-3 me-auto ms-auto  ">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 me-auto ms-auto ">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 me-auto ms">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+        
+            <div class="col-md-3">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-4 text-center">
+                  <div class="icon_cards"><i class="fas fa-laptop"></i></div>
+                <h5 class="mt-3">Telehealth</h5>
+              <p >
+                With technology constantly improving, psychosocial treatment can be done within the comforts of home. Remote support allows flexible healing and recovery.   
+                </p>
+              </div>
+            </div>
+        
+        
+        
+        
+
+
+   <!-- </div>  -->
+
+    </div>
+ </div>
 
 
 
+
+
+ </div>
+
+
+</section>
+
+
+
+</div>
+</div>
     
     <!-- Boostrap Js -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
